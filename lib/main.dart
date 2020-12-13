@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:test_app/view/home_view/home_view.dart';
+import 'package:test_app/view/second_view/second_view.dart';
 
 void main() {
   runApp(MyApp());
@@ -26,6 +26,6 @@ class MyApp extends StatelessWidget {
 class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return HomeView();
+    return SecondView();
   }
 }
