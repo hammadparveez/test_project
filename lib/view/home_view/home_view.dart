@@ -119,7 +119,7 @@ class _HomeViewState extends State<HomeView> with TickerProviderStateMixin {
                 Scrollbar(
                   child: GridView.builder(
                       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                          crossAxisCount: 2),
+                          crossAxisCount: 2,),
                       scrollDirection: Axis.vertical,
                       itemCount: 5,
                       itemBuilder: (ctx, index) {

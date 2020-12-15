@@ -13,6 +13,8 @@ class StyleText {
   );
   static final TextStyle textStyle3Black = TextStyle(
       color: Colors.black87, fontSize: Responsive.textScaleFactor * 2.5);
+  static final TextStyle textStyle3Black54 = TextStyle(
+      color: Colors.black54, fontSize: Responsive.textScaleFactor * 2.3);
   static final TextStyle textStyle3White = TextStyle(
       color: Colors.white, fontSize: Responsive.textScaleFactor * 2.5);
   static final TextStyle textStyle4Black = TextStyle(
